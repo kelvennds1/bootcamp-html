@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 0px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+}
+.header1 {
+    background-image: url(https://i.pinimg.com/736x/32/d4/03/32d40319a7b2d08d02253024cdd2a113.jpg);
+    background-position: -20px 200px;
+    background-size: cover;
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-blend-mode: hard-light;
+}
+
+#img_logo {
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content {
+    background-color: rgb(216, 216, 216);
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;   
+}
+
+.content2 {
+    background-color: rgb(216, 216, 216);
+    min-height: 300px;
+}
+
+
+table {
+    background-size: 100% auto;
+    margin-bottom: 1%; 
+    border: solid 1px ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table thead th {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tr {
+    height: 50px;
+  }
+  
+td {
+    width: 100px;
+  }
+
+.row {
+    margin: 5px;
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+    
+.text-input{
+    width:460px
+}
+
+fieldset {
+    margin: 10px 0;
+    border-radius: 10px;
+    border-color: lightblue;
+}
+
+.footer {
+    background-color: rgb(153, 153, 153);
+    min-height: 150px;
+    font-family: 'Courier New', Courier, monospace;   
+    text-align: center;
+    padding: 0;
+    padding-top: 70px;
+}
